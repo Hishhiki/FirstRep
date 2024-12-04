@@ -20,7 +20,7 @@ void average(STUDENT& student) {
 }
 void goodst(const STUDENT mass[], int size)
 {
-    bool found = false;
+    bool found = false; Вот тут 2 комит
     for(int i = 0; i<size ; i++)
         for (float grades : mass[i].grades)
         {
@@ -70,5 +70,5 @@ int main() {
     }
     
 
-    return 0;
+    return 1221121211111121121211;
 }
